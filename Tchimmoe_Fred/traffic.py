@@ -86,7 +86,7 @@ def create_transfer_learning_model():
 
 def main():
    
-    dataset_dir = r"C:\Users\utilisateur\Desktop\Traffic\Tchimmoe_Fred\images"
+    dataset_dir = r" C:\Users\utilisateur\Desktop\Traffic\Tchimmoe_Fred_Emmanuel\Tchimmoe_Fred\images"
     print("Loading data...")
     X, y = load_data(dataset_dir)
     X = X / 255.0 
